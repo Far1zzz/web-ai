@@ -1,10 +1,14 @@
 {
   "data": [
-    { "id": 1, "nama_penyakit": "CONTRACT ULCERS", "gejala_penyakit": [3, 16] },
+    {
+      "id": 1,
+      "nama_penyakit": "CONTRACT ULCERS",
+      "gejala_penyakit": ["3", "16"]
+    },
     {
       "id": 2,
       "nama_penyakit": "ABAES PARAFARINGEAL",
-      "gejala_penyakit": [3, 19]
+      "gejala_penyakit": ["3", "19"]
     },
     {
       "id": 3,
