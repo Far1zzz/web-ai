@@ -1,0 +1,120 @@
+{
+  "data": [
+    { "id": 1, "nama_penyakit": "CONTRACT ULCERS", "gejala_penyakit": [3, 16] },
+    {
+      "id": 2,
+      "nama_penyakit": "ABAES PARAFARINGEAL",
+      "gejala_penyakit": [3, 19]
+    },
+    {
+      "id": 3,
+      "nama_penyakit": "ABAES PERITONAILER",
+      "gejala_penyakit": [1, 2, 7, 14, 16, 22]
+    },
+    {
+      "id": 4,
+      "nama_penyakit": "BAROTITIS MEDIA",
+      "gejala_penyakit": [2, 6]
+    },
+    {
+      "id": 5,
+      "nama_penyakit": "DEVIASI SEPTUM",
+      "gejala_penyakit": [1, 5, 6, 15, 25, 29]
+    },
+    {
+      "id": 6,
+      "nama_penyakit": "FARINGITIS",
+      "gejala_penyakit": [1, 3, 7, 13, 14]
+    },
+    {
+      "id": 7,
+      "nama_penyakit": "KANKER LARING",
+      "gejala_penyakit": [3, 4, 7, 13, 16, 23, 24]
+    },
+    {
+      "id": 8,
+      "nama_penyakit": "KANKER LEHER DAN KEPALA",
+      "gejala_penyakit": [3, 12, 15, 21, 30, 31]
+    },
+    {
+      "id": 9,
+      "nama_penyakit": "KANKER LEHER METASTATIK",
+      "gejala_penyakit": [12]
+    },
+    {
+      "id": 10,
+      "nama_penyakit": "KANKER NASOFARING",
+      "gejala_penyakit": [5, 15]
+    },
+    {
+      "id": 11,
+      "nama_penyakit": "KANKER TONSIL",
+      "gejala_penyakit": [7, 12]
+    },
+    {
+      "id": 12,
+      "nama_penyakit": "LARINGITIS",
+      "gejala_penyakit": [1, 3, 14, 19, 37]
+    },
+    {
+      "id": 13,
+      "nama_penyakit": "NEURONITIS VESTIBULARIS",
+      "gejala_penyakit": [10, 17]
+    },
+    {
+      "id": 14,
+      "nama_penyakit": "OSTEOSKLEROSIS",
+      "gejala_penyakit": [20, 35]
+    },
+    {
+      "id": 15,
+      "nama_penyakit": "OTITIS MEDIA AKUT",
+      "gejala_penyakit": [1, 6, 10, 32]
+    },
+    {
+      "id": 16,
+      "nama_penyakit": "MENIERE",
+      "gejala_penyakit": [6, 10, 34, 36]
+    },
+    {
+      "id": 17,
+      "nama_penyakit": "TONSILITIS",
+      "gejala_penyakit": [1, 2, 3, 4, 7, 10]
+    },
+    {
+      "id": 18,
+      "nama_penyakit": "TUMOR SYARAF PENDENGARAN",
+      "gejala_penyakit": [2, 20, 38]
+    },
+    {
+      "id": 19,
+      "nama_penyakit": "VERTIGO POSTULAR",
+      "gejala_penyakit": [17]
+    },
+    {
+      "id": 20,
+      "nama_penyakit": "SINUSITIS MAKSILARIS",
+      "gejala_penyakit": [1, 2, 4, 5, 8, 9, 11, 28, 33]
+    },
+    {
+      "id": 21,
+      "nama_penyakit": "SINUSITIS FRONTALIS",
+      "gejala_penyakit": [1, 2, 4, 5, 8, 9, 11, 18]
+    },
+    {
+      "id": 22,
+      "nama_penyakit": "SINUSITIS ETMOIDALIS",
+      "gejala_penyakit": [1, 2, 4, 5, 8, 9, 11, 18, 26, 27]
+    },
+    {
+      "id": 23,
+      "nama_penyakit": "SINUSITIS SFENOIDALIS",
+      "gejala_penyakit": [1, 2, 4, 5, 6, 8, 9, 11, 12]
+    },
+    {
+      "id": 24,
+      "nama_penyakit": "PERUT",
+      "gejala_penyakit": [1, 2, 3, 4]
+    }
+  ]
+}
