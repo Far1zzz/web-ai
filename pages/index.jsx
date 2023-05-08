@@ -294,26 +294,30 @@ const Dashboard = () => {
   const renderHeaderCek = () => {
     return (
       <form
-        className="flex justify-content-start gap-2"
+        className="flex flex-wrap justify-content-start gap-2"
         onSubmit={handleFiltered}
       >
-        <MultiSelect
-          value={selectedGejala}
-          options={gejalaOptions}
-          onChange={handleSelectChange}
-          placeholder="Pilih Gejala"
-          filter
-          filterPlaceholder="Cari Gejala"
-          maxSelectedLabels={1}
-          display="chip"
-          className="w-full md:w-20rem "
-        />
-        <Button
-          type="submit"
-          icon="pi pi-search"
-          severity="success"
-          aria-label="Search"
-        />
+        <div className="flex-grow">
+          <MultiSelect
+            value={selectedGejala}
+            options={gejalaOptions}
+            onChange={handleSelectChange}
+            placeholder="Pilih Gejala"
+            filter
+            filterPlaceholder="Cari Gejala"
+            maxSelectedLabels={1}
+            display="chip"
+            className="w-full"
+          />
+        </div>
+        <div className="flex-shrink-0">
+          <Button
+            type="submit"
+            icon="pi pi-search"
+            severity="success"
+            aria-label="Search"
+          />
+        </div>
       </form>
     );
   };
