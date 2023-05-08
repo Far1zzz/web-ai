@@ -1,6 +1,5 @@
 /* eslint-disable react/display-name */
 import Link from "next/link";
-import Router, { useRouter } from "next/router";
 import { classNames } from "primereact/utils";
 import React, {
   forwardRef,
@@ -44,7 +43,7 @@ const AppTopbar = forwardRef((props, ref) => {
           widt={"true"}
           alt="logo"
         />
-        <span>SAKAI</span>
+        <span>THT</span>
       </Link>
 
       <button
@@ -70,12 +69,6 @@ const AppTopbar = forwardRef((props, ref) => {
           <i className="pi pi-user"></i>
           <span>Profile</span>
         </button>
-        <Link href="/documentation">
-          <button type="button" className="p-link layout-topbar-button">
-            <i className="pi pi-cog"></i>
-            <span>Settings</span>
-          </button>
-        </Link>
       </div>
     </div>
   );

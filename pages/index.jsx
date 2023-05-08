@@ -267,8 +267,6 @@ const Dashboard = () => {
 
   const headerCek = renderHeaderCek();
 
-  console.log(selectedGejala);
-  console.log(inputGejala);
   return (
     <>
       <div className="card">
