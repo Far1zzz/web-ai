@@ -129,20 +129,17 @@ const Layout = (props) => {
   return (
     <React.Fragment>
       <Head>
-        <title>Sakai by PrimeReact | Free Admin Template for NextJS</title>
+        <title>Sistem Pakar THT</title>
         <meta charSet="UTF-8" />
-        <meta name="description" content=" Sistem Pakar THT Cek Penyakit" />
+        <meta name="description" content="Sistem Pakar THT Cek Penyakit" />
         <meta name="robots" content="index, follow" />
         <meta name="viewport" content="initial-scale=1, width=device-width" />
         <meta property="og:type" content="website"></meta>
         <meta property="og:title" content="Project AI || by Kelompok 5"></meta>
-        <meta
-          property="og:url"
-          content="https://www.primefaces.org/sakai-react"
-        ></meta>
+        <meta property="og:url" content="https://github.com/Far1zzz"></meta>
         <meta
           property="og:description"
-          content="The ultimate collection of design-agnostic, flexible and accessible React UI Components."
+          content="Project AI || by Kelompok 5."
         />
         <meta
           property="og:image"
