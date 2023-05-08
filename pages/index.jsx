@@ -306,6 +306,7 @@ const Dashboard = () => {
           filterPlaceholder="Cari Gejala"
           maxSelectedLabels={1}
           display="chip"
+          className="w-full md:w-15rem sm:w-10rem"
         />
         <Button
           type="submit"
