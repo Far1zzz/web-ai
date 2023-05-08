@@ -338,7 +338,6 @@ const Dashboard = () => {
           globalFilterFields={["gejala_penyakit"]}
           header={headerCek}
           emptyMessage="Gejala Belum Di Input"
-          responsive
         >
           <Column
             field="nama_penyakit"
