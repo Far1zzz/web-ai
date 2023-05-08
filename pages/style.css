@@ -1,0 +1,5 @@
+.custom-multiselect .p-multiselect-token-label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
