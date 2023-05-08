@@ -139,11 +139,11 @@ const Layout = (props) => {
         <meta property="og:url" content="https://github.com/Far1zzz"></meta>
         <meta
           property="og:description"
-          content="Project AI || by Kelompok 5."
+          content="Sistem Pakar THT Cek Penyakit"
         />
         <meta
           property="og:image"
-          content="https://www.primefaces.org/static/social/sakai-nextjs.png"
+          content="https://rsamcmuhammadiyah.com/wp-content/uploads/2021/06/Spesialis-THT.png"
         ></meta>
         <meta property="og:ttl" content="604800"></meta>
         <link rel="icon" href={`/favicon.ico`} type="image/x-icon"></link>
