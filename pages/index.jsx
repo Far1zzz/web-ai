@@ -294,7 +294,7 @@ const Dashboard = () => {
   const renderHeaderCek = () => {
     return (
       <form
-        className="w-full flex justify-content-start gap-2"
+        className="flex justify-content-start gap-2"
         onSubmit={handleFiltered}
       >
         <MultiSelect
@@ -306,6 +306,9 @@ const Dashboard = () => {
           filterPlaceholder="Cari Gejala"
           maxSelectedLabels={1}
           display="chip"
+          style={{
+            width: "80%",
+          }}
         />
 
         <div className="flex-shrink-0">
