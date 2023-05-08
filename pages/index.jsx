@@ -304,6 +304,8 @@ const Dashboard = () => {
           placeholder="Pilih Gejala"
           filter
           filterPlaceholder="Cari Gejala"
+          maxSelectedLabels={1}
+          display="chip"
         />
         <Button
           type="submit"
