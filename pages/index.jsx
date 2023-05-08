@@ -241,6 +241,56 @@ const Dashboard = () => {
   const handleSelectChange = (event) => {
     setSelectedGejala(event.value);
   };
+
+  const gejalaToString = {
+    1: "Demam",
+    2: "Sakit Kepala",
+    3: "Nyeri Saat Bicara Atau Menelan",
+    4: "Batuk",
+    5: "Hidung Tersumbat",
+    6: "Nyeri Telinga",
+    7: "Nyeri Tenggorokan",
+    8: "Hidung Meler",
+    9: "Letih Dan Lesu",
+    10: "Mual Dan Muntah",
+    11: "Selaput Lendir Merah Dan Bengkak",
+    12: "Ada Benjolan Di Leher",
+    13: "Nyeri Leher",
+    14: "Pembengkakan Kelenjar Getah Bening",
+    15: "Pendarahan Hidung",
+    16: "Suara Serak",
+    17: "Bola Mata Bergetar Tanpa Sadar",
+    18: "Dahi sakit",
+    19: "Leher Bengkak",
+    20: "tuli",
+    21: "Ada Yang Tumbuh Di mulut",
+    22: "Air Liur Menetes",
+    23: "Berat Badan Turun",
+    24: "Bunyi Nafas Abnormal",
+    25: "Insfeksi Sinus",
+    26: "Nyeri Antara Mata",
+    27: "Nyeri Pinggir Hidung",
+    28: "Nyeri Pipi Di Bawah Mata",
+    29: "Nyeri Wajah",
+    30: "Perubahan Kulit",
+    31: "Perubahan Suara",
+    32: "Radang Gendang Telinga",
+    33: "Sakit Gigi",
+    34: "Serangan Vertigo",
+    35: "Telinga Berdenging",
+    36: "Telinga Terasa Penuh",
+    37: "Tenggorokan Gatal",
+    38: "Tubuh Tak Seimbang",
+  };
+
+  const gejalaKeString = (rowData) => {
+    const gejala = rowData.gejala_penyakit;
+    if (Array.isArray(gejala)) {
+      return gejala.map((angka) => gejalaToString[angka] || "").join(", ");
+    }
+    return "";
+  };
+
   const renderHeaderCek = () => {
     return (
       <form
@@ -285,6 +335,12 @@ const Dashboard = () => {
           <Column
             field="nama_penyakit"
             header="Nama Penyakit"
+            style={{ minWidth: "12rem" }}
+          />
+          <Column
+            field="gejala_penyakit"
+            header="Gejala Penyakit"
+            body={gejalaKeString}
             style={{ minWidth: "12rem" }}
           />
         </DataTable>
