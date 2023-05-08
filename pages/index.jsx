@@ -304,9 +304,9 @@ const Dashboard = () => {
           placeholder="Pilih Gejala"
           filter
           filterPlaceholder="Cari Gejala"
-          maxSelectedLabels={3}
+          maxSelectedLabels={1}
           display="chip"
-          className="w-full md:w-25rem sm:w-15rem"
+          className="w-full md:w-20rem "
         />
         <Button
           type="submit"
